@@ -1,10 +1,11 @@
 <script>
 import Header from './components/Header.vue';
 import Hero from './components/Hero.vue';
+import Courses from './components/Courses.vue';
 
 export default {
   components: {
-    Header, Hero,
+    Header, Hero, Courses,
   }
 }
 
@@ -13,6 +14,7 @@ export default {
 <template>
   <Header />
   <Hero />
+  <Courses />
   
 </template>
 
