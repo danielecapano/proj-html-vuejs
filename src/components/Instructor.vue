@@ -34,6 +34,7 @@
 .content {
     margin-bottom: 3.5rem;
 }
+
 .content-title {
     font-size: 2.25rem;
     margin-bottom: 1.5rem;

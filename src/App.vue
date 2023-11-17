@@ -3,12 +3,13 @@ import Header from './components/Header.vue';
 import Hero from './components/Hero.vue';
 import Courses from './components/Courses.vue';
 import Instructor from './components/Instructor.vue';
+import Events from './components/Events.vue';
 
 
 export default {
   components: {
     Header, Hero, Courses,
-    Instructor
+    Instructor, Events,
 }
 }
 
@@ -19,6 +20,7 @@ export default {
   <Hero />
   <Courses />
   <Instructor />
+  <Events />
   
 </template>
 
