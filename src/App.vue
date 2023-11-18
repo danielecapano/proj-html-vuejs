@@ -6,12 +6,14 @@ import Instructor from './components/Instructor.vue';
 import Events from './components/Events.vue';
 import Testimonials from './components/Testimonials.vue';
 import Learning from './components/Learning .vue';
+import OnlineCoueses from './components/OnlineCoueses.vue';
 
 
 export default {
   components: {
     Header, Hero, Courses,
-    Instructor, Events, Testimonials, Learning
+    Instructor, Events, Testimonials, Learning,
+    OnlineCoueses
 }
 }
 
@@ -25,6 +27,7 @@ export default {
   <Events />
   <Testimonials />
   <Learning />
+  <OnlineCoueses />
   
 </template>
 
