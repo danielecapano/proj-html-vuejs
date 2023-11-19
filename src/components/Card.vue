@@ -48,6 +48,7 @@
     border: 1px solid $boder-color;
     .card-body {
         padding: 1.5rem 1rem;
+        background-color: $white;
         .card-header {
             display: flex;
             justify-content: space-between;

@@ -2,7 +2,7 @@
     <section class="online-courses">
         <div class="container">
             <div class="content">
-                <h2>Popular Online Courses</h2>
+                <h2 class="title">Popular Online Courses</h2>
                 <p class="text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi beatae officiis perferendis reiciendis sequi quae, dolorem fugiat quo laboriosam laborum
                 </p>
@@ -61,7 +61,28 @@ import Card from './Card.vue';
 @use '../styles/partials/variables' as *; 
 
 .online-courses {
-
+padding: 3.5rem 2.5rem;
+background-image: url(../assets/img/background-pattern.jpg);
+background-size: 400% auto;
+background-position: top right;
+background-repeat: no-repeat;
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    .title {
+        font-size: 3rem;
+        line-height: 50px;
+        margin-bottom: 2rem;
+    }
+    .text {
+        font-size: 17px;
+        line-height: 28px;
+        max-width: 90%;
+        margin-bottom: 6rem;
+    }
+}
     .grid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
