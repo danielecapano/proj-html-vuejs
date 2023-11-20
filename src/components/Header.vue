@@ -29,7 +29,7 @@ import Nav from './Nav.vue';
                 menu: [
                     {
                         text: 'home',
-                        href: '#'
+                        href: '#Home'
                     },
                     {
                         text: 'courses',

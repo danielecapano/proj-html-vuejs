@@ -7,13 +7,14 @@ import Events from './components/Events.vue';
 import Testimonials from './components/Testimonials.vue';
 import Learning from './components/Learning .vue';
 import OnlineCourses from './components/OnlineCourses.vue';
-
+import Pricing from './components/Pricing.vue';
+import returnToTop from './components/returnToTop.vue';
 
 export default {
   components: {
     Header, Hero, Courses,
     Instructor, Events, Testimonials, Learning,
-    OnlineCourses
+    OnlineCourses, Pricing, returnToTop
 }
 }
 
@@ -28,6 +29,7 @@ export default {
   <Testimonials />
   <Learning />
   <OnlineCourses />
+  <Pricing />
   
 </template>
 

@@ -1,5 +1,5 @@
 <template>
-    <section class="hero">
+    <section class="hero" id="home">
         <div class="container">
             <div class="content-hero">
                 <h1 class="title">Contemporary Ideas</h1>
@@ -9,11 +9,18 @@
             
 
         </div>
+        <ReturnToTop />
     </section>
 </template>
 
 <script>
+import ReturnToTop from './returnToTop.vue';
+import returnToTop from './returnToTop.vue';
     export default {
+        components: {
+            returnToTop,
+            ReturnToTop
+        },
         data(){
             return {
 

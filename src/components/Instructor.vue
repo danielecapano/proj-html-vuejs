@@ -12,11 +12,18 @@
             <img src="../assets/img/instructor.jpg" alt="image">
              
         </div>
+        <ReturnToTop />
     </section>
 </template>
 
 <script>
+import ReturnToTop from './returnToTop.vue';
+import returnToTop from './returnToTop.vue';
     export default {
+        components: {
+    returnToTop,
+    ReturnToTop
+},
         data() {
             return {
 
@@ -28,6 +35,7 @@
 <style lang="scss" scoped>
 @use '../styles/partials/variables' as *;
 .instructor {
+    position: relative;
     padding: 3.5rem 2.5rem;
 }
 

@@ -12,15 +12,20 @@
 
             </div>
         </div>
+        <ReturnToTop />
     </section>
 </template>
 
 <script>
 import Card from './Card.vue';
+import ReturnToTop from './returnToTop.vue';
+import returnToTop from './returnToTop.vue';
     export default {
         components: {
-            Card
-        },
+    Card,
+    returnToTop,
+    ReturnToTop
+},
         data() {
             return {
                 cards: [
@@ -61,11 +66,14 @@ import Card from './Card.vue';
 @use '../styles/partials/variables' as *; 
 
 .online-courses {
-padding: 3.5rem 2.5rem;
+    position: relative;
+padding: 8rem 2.5rem;
 background-image: url(../assets/img/background-pattern.jpg);
 background-size: 400% auto;
 background-position: top right;
 background-repeat: no-repeat;
+border-bottom: 1px solid $boder-color;
+border-top: 1px solid $boder-color;
 .content {
     display: flex;
     flex-direction: column;

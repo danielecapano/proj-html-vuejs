@@ -6,6 +6,7 @@
                 <learningList :learningList="learningList"/>
             </div>
         </div>
+        <ReturnToTop />
     </section>
 </template>
 
@@ -13,11 +14,15 @@
 import { store } from '../store'
 import SideList from './SideList.vue';
 import LearningList from './LearningList.vue';
+import returnToTop from './returnToTop.vue';
+import ReturnToTop from './returnToTop.vue';
     export default {
         components: {
-            SideList,
-            LearningList
-        },
+    SideList,
+    LearningList,
+    returnToTop,
+    ReturnToTop
+},
         data() {
             return {
                 store,
@@ -131,6 +136,7 @@ import LearningList from './LearningList.vue';
 
 <style lang="scss" scoped>
 .learning {
+    position: relative;
     padding: 8rem 2.5rem;
     .grid {
         display: grid;
