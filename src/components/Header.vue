@@ -33,15 +33,15 @@ import Nav from './Nav.vue';
                     },
                     {
                         text: 'courses',
-                        href: '#'
+                        href: '#courses'
                     },
                     {
                         text: 'instuction',
-                        href: '#'
+                        href: '#instruction'
                     },
                     {
                         text: 'events',
-                        href: '#'
+                        href: '#events'
                     },
                     {
                         text: 'page',

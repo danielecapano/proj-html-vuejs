@@ -1,5 +1,5 @@
 <template>
-    <section class="courses">
+    <section class="courses" id="courses">
         <div class="container">
             <div class="grid">
                 

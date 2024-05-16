@@ -90,7 +90,7 @@
             gap: 1rem;
             span {
                 display: flex;
-                align-items: center;
+                align-items: center; 
                 gap: 0.25rem;
                 &.tag {
                     text-transform: uppercase;

@@ -1,5 +1,5 @@
 <template>
-    <section class="instructor">
+    <section class="instructor" id="instruction">
         <div class="container">
             <div class="content">
                 <h2 class="content-title">
