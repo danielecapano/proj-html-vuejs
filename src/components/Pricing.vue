@@ -19,14 +19,14 @@
 <script>
 import PricingDescription from './PricingDescription.vue';
 import PricingPlan from './PricingPlan.vue';
-import ReturnToTop from './returnToTop.vue';
-import returnToTop from './returnToTop.vue';
+import ReturnToTop from './ReturnToTop.vue';
+
 
     export default {
         components: {
     PricingDescription,
     PricingPlan,
-    returnToTop,
+  
     ReturnToTop
 },
         data() {

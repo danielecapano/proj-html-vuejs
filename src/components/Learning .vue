@@ -14,13 +14,13 @@
 import { store } from '../store'
 import SideList from './SideList.vue';
 import LearningList from './LearningList.vue';
-import returnToTop from './returnToTop.vue';
-import ReturnToTop from './returnToTop.vue';
+
+import ReturnToTop from './ReturnToTop.vue';
     export default {
         components: {
     SideList,
     LearningList,
-    returnToTop,
+  
     ReturnToTop
 },
         data() {

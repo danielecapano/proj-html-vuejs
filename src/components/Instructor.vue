@@ -17,11 +17,11 @@
 </template>
 
 <script>
-import ReturnToTop from './returnToTop.vue';
-import returnToTop from './returnToTop.vue';
+import ReturnToTop from './ReturnToTop.vue';
+
     export default {
         components: {
-    returnToTop,
+   
     ReturnToTop
 },
         data() {

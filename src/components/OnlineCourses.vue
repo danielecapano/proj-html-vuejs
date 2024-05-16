@@ -18,12 +18,12 @@
 
 <script>
 import Card from './Card.vue';
-import ReturnToTop from './returnToTop.vue';
-import returnToTop from './returnToTop.vue';
+import ReturnToTop from './ReturnToTop.vue';
+
     export default {
         components: {
     Card,
-    returnToTop,
+ 
     ReturnToTop
 },
         data() {
