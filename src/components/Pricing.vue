@@ -44,7 +44,7 @@ import ReturnToTop from './ReturnToTop.vue';
                 ],
                 pricingPlans: [
                     {
-                        imgSrc: 'src/assets/img/plan-icon-1.png',
+                        imgSrc: '/assets/img/plan-icon-1.png',
                         name: 'Standard',
                         price: '$12',
                         list: [
@@ -59,7 +59,7 @@ import ReturnToTop from './ReturnToTop.vue';
                         ]
                     },
                     {
-                        imgSrc: 'src/assets/img/plan-icon-2.png',
+                        imgSrc: '/assets/img/plan-icon-2.png',
                         name: 'Professional',
                         price: '$59',
                         list: [
@@ -74,7 +74,7 @@ import ReturnToTop from './ReturnToTop.vue';
                         ]
                     },
                     {
-                        imgSrc: 'src/assets/img/plan-icon-3.png',
+                        imgSrc: '/assets/img/plan-icon-3.png',
                         name: 'Advanced',
                         price: '$59',
                         list: [

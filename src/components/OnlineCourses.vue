@@ -30,7 +30,7 @@ import ReturnToTop from './ReturnToTop.vue';
             return {
                 cards: [
                     {
-                        imgSrc: 'src/assets/img/course-1.jpg',
+                        imgSrc: '/assets/img/course-1.jpg',
                         name: 'Andriod Developer',
                         teacher: 'David Sanders',
                         price: 'free',
@@ -39,7 +39,7 @@ import ReturnToTop from './ReturnToTop.vue';
                         category: 'programming'
                     },
                     {
-                        imgSrc: 'src/assets/img/course-2.jpg',
+                        imgSrc: '/assets/img/course-2.jpg',
                         name: 'Web Designing',
                         teacher: 'Jennifer Powell',
                         price: 'free',
@@ -48,7 +48,7 @@ import ReturnToTop from './ReturnToTop.vue';
                         category: 'programming'
                     },
                     {
-                        imgSrc: 'src/assets/img/course-3.jpg',
+                        imgSrc: '/assets/img/course-3.jpg',
                         name: 'Financial Modeling',
                         teacher: 'Edward Bowman',
                         price: '$20',

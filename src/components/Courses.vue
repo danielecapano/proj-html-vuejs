@@ -19,27 +19,27 @@
             return {
                 courses: [
                     {
-                        src: 'src/assets/img/icon-1.png',
+                        src: '/assets/img/icon-1.png',
                         title: 'Languages'
                     },
                     {
-                        src: 'src/assets/img/icon-2.png',
+                        src: '/assets/img/icon-2.png',
                         title: 'Software'
                     },
                     {
-                        src: 'src/assets/img/icon-3.png',
+                        src: '/assets/img/icon-3.png',
                         title: 'Business'
                     },
                     {
-                        src: 'src/assets/img/icon-4.png',
+                        src: '/assets/img/icon-4.png',
                         title: 'Chemistry'
                     },
                     {
-                        src: 'src/assets/img/icon-5.png',
+                        src: '/assets/img/icon-5.png',
                         title: 'Science '
                     },
                     {
-                        src: 'src/assets/img/icon-6.png',
+                        src: '/assets/img/icon-6.png',
                         title: 'DIY&Craft'
                     },
                   
