@@ -8,13 +8,13 @@ import Testimonials from './components/Testimonials.vue';
 import Learning from './components/Learning .vue';
 import OnlineCourses from './components/OnlineCourses.vue';
 import Pricing from './components/Pricing.vue';
-import returnToTop from './components/returnToTop.vue';
+
 
 export default {
   components: {
     Header, Hero, Courses,
     Instructor, Events, Testimonials, Learning,
-    OnlineCourses, Pricing, returnToTop
+    OnlineCourses, Pricing
 }
 }
 
