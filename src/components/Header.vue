@@ -1,7 +1,7 @@
 <template>
    <header>
     <nav class="container">
-        <img class="logo" src="../assets/img/logo.png" alt="logo">
+        <img class="logo" src="/assets/img/logo.png" alt="logo">
         <Nav :menu="menu" />
         <ul class="icons">
             <li>
