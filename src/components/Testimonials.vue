@@ -2,7 +2,7 @@
     <section class="testimonials">
         <div class="container">
             <div class="content">
-                <img src="../assets/img/testimonial.png" alt="image">
+                <img src="/assets/img/testimonial.png" alt="image">
                 <p class="quote">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum omnis fuga quae, aliquid ab repellat id facere harum aut, voluptatum eos possimus? Commodi aspernatur velit consequuntur aut est quasi vero, hic esse, atque dolor eius cumque nulla consequatur distinctio vel"</p>
                 <div class="info">
                     <h4 class="name">Joan Collins</h4>

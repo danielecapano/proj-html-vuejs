@@ -2,7 +2,7 @@
    <section class="events" id="events">
     <div class="container">
         <div class="grid">
-            <img src="../assets/img/events.jpg" alt="image">
+            <img src="/assets/img/events.jpg" alt="image">
             <div class="events-content">
                 
                     <h2 class="event-content-title">Empowering Children to Reach Their Potential.</h2>

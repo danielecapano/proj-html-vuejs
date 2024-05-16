@@ -33,7 +33,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(../assets/img/hero.jpg);
+  background-image: url(/assets/img/hero.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   color: $white;
