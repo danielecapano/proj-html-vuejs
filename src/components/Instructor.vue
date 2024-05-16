@@ -9,7 +9,7 @@
                 <p class="content-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae ea expedita modi quidem error corrupti, obcaecati eius ratione, consectetur reiciendis quia dicta voluptate, illo sint possimus beatae consequuntur.</p>
                 <a href="#" class="link">learn more</a>
             </div>
-            <img src="../assets/img/instructor.jpg" alt="image">
+            <img src="/assets/img/instructor.jpg" alt="image">
              
         </div>
         <ReturnToTop />
