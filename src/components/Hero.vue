@@ -14,13 +14,9 @@
 </template>
 
 <script>
-import ReturnToTop from './returnToTop.vue';
-import returnToTop from './returnToTop.vue';
+
     export default {
-        components: {
-            returnToTop,
-            ReturnToTop
-        },
+        
         data(){
             return {
 
